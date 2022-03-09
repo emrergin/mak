@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    margin:0;
+    background-color: #332E2B;
+    font-size: 1.5em;
+}
+
+
+a:link,a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #DBA664;
+}
+
+a:visited {
+  color: #DBA664;
+}
+
+a:hover,a:active {
+  text-decoration: underline;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 1s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  body{
+    font-size: 1em;
+  }
+}
